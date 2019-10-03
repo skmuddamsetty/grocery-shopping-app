@@ -11,76 +11,54 @@ const ShoppingContainer = () => (
             src="/images/single-capsicum.jpeg"
             alt="Organic Gala Apples"
           />
-          <div className="item-box__price-weight-box">
-            <div className="item-box__price">
-              <span className="item-box__price-currency-symbol">$</span>
-              <span className="item-box__price-whole-units">4</span>
-              <span className="item-box__price-decimal-units">76</span>
+          <div className="item-box-div">
+            <div className="item-box__price-weight-box">
+              <div className="item-box__price">
+                <span className="item-box__price-currency-symbol">$</span>
+                <span className="item-box__price-whole-units">4</span>
+                <span className="item-box__price-decimal-units">76</span>
+              </div>
+              <div className="item-box__weight">($1.59/LB)</div>
             </div>
-            <div className="item-box__weight">($1.59/LB)</div>
-          </div>
-          <div className="item-box__short-desc">
-            Organic Gala Apples, 3 lb bag
-          </div>
-          <div className="item-box__btn-box">
-            <img
-              className="item-box__btn-img"
-              src="/images/cart.png"
-              alt="Add To Cart"
-            />
-            <button className="btn item-box__btn">Add To Cart</button>
+            <div className="item-box__short-desc">
+              Organic Gala Apples, 3 lb bag
+            </div>
+            <div className="item-box__btn-box">
+              <img
+                className="item-box__btn-img"
+                src="/images/cart.png"
+                alt="Add To Cart"
+              />
+              <button className="btn item-box__btn">Add To Cart</button>
+            </div>
           </div>
         </div>
         <div className="item-box">
           <img
             className="item-box__img"
-            src="/images/milk-can.jpeg"
-            alt="Milk Can"
+            src="/images/single-capsicum.jpeg"
+            alt="Organic Gala Apples"
           />
-          <div className="item-box__price-weight-box">
-            <div className="item-box__price">
-              <span className="item-box__price-currency-symbol">$</span>
-              <span className="item-box__price-whole-units">4</span>
-              <span className="item-box__price-decimal-units">76</span>
+          <div className="item-box-div">
+            <div className="item-box__price-weight-box">
+              <div className="item-box__price">
+                <span className="item-box__price-currency-symbol">$</span>
+                <span className="item-box__price-whole-units">4</span>
+                <span className="item-box__price-decimal-units">76</span>
+              </div>
+              <div className="item-box__weight">($1.59/LB)</div>
             </div>
-            <div className="item-box__weight">($1.59/LB)</div>
-          </div>
-          <div className="item-box__short-desc">
-            Organic Gala Apples, 3 lb bag
-          </div>
-          <div className="item-box__btn-box">
-            <img
-              className="item-box__btn-img"
-              src="/images/cart.png"
-              alt="Add To Cart"
-            />
-            <button className="btn item-box__btn">Add To Cart</button>
-          </div>
-        </div>
-        <div className="item-box">
-          <img
-            className="item-box__img"
-            src="/images/single-banana.jpeg"
-            alt="Single Banana"
-          />
-          <div className="item-box__price-weight-box">
-            <div className="item-box__price">
-              <span className="item-box__price-currency-symbol">$</span>
-              <span className="item-box__price-whole-units">4</span>
-              <span className="item-box__price-decimal-units">76</span>
+            <div className="item-box__short-desc">
+              Organic Gala Apples, 3 lb bag
             </div>
-            <div className="item-box__weight">($1.59/LB)</div>
-          </div>
-          <div className="item-box__short-desc">
-            Organic Gala Apples, 3 lb bag
-          </div>
-          <div className="item-box__btn-box">
-            <img
-              className="item-box__btn-img"
-              src="/images/cart.png"
-              alt="Add To Cart"
-            />
-            <button className="btn item-box__btn">Add To Cart</button>
+            <div className="item-box__btn-box">
+              <img
+                className="item-box__btn-img"
+                src="/images/cart.png"
+                alt="Add To Cart"
+              />
+              <button className="btn item-box__btn">Add To Cart</button>
+            </div>
           </div>
         </div>
       </section>

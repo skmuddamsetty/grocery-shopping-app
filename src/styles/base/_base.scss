@@ -47,7 +47,10 @@ body {
     var(--color-primary) 7.9%,
     var(--color-primary-light) 94.1%
   );
-  color: var(--color-primary-dark);
+  background-color: #43302e;
+  background-image: linear-gradient(315deg, #43302e 0%, #ad6f69 74%);
+
+  color: #fafafa;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;

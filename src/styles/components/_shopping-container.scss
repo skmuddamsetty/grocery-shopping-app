@@ -24,27 +24,26 @@
   .carousel-title {
     font-size: 2rem;
     padding: 1.5rem 0.5rem;
-    background: white;
-    background-color: #f6f6f6;
-    background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
+    color: #fafafa;
   }
   &-items {
     display: flex;
     flex-wrap: wrap;
     .item-box {
-      margin: 0.2rem 0.1rem;
+      color: #fafafa;
+      margin: 0.5rem 0.5rem;
       width: 20rem;
-      padding: 1rem;
       background: #fff;
       display: flex;
       flex-direction: column;
-      &:not(:last-child) {
-        border-right: 1px solid #666;
-      }
+      // &:not(:last-child) {
+      //   border-right: 1px solid #666;
+      // }
       &__img {
         object-fit: contain;
-        height: 10rem;
+        height: 15rem;
         width: auto;
+        padding: 1rem;
       }
       &__price-weight-box {
         display: flex;
@@ -98,7 +97,12 @@
       }
       &__weight {
         font-size: 1.25rem;
-        color: #666;
+        color: #fafafa;
+      }
+      &-div {
+        padding: 1rem;
+        background-color: #000000;
+        background-image: linear-gradient(315deg, #000000 0%, #422419 74%);
       }
     }
   }
